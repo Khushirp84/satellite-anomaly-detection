@@ -56,3 +56,19 @@ moment they appear, and presents system health in a clear visual dashboard.
 ---
 
 ## Project Structure
+satellite-anomaly-detection/
+│
+├── telemetry_plot.png        # Raw sensor readings with fault zones
+├── anomaly_detection.png     # Model output overlaid on sensor data
+├── dashboard.png             # Full health monitoring dashboard
+└── README.md                 # Project documentation
+
+---
+
+## Relevance to Space and Defence
+
+ISRO's ISTRAC ground station monitors telemetry from every active satellite 
+in real time. DRDO's test ranges generate similar streams during missile and 
+UAV evaluations. This project directly mirrors that use case, demonstrating 
+how unsupervised machine learning can replace manual monitoring and catch 
+faults faster than a human operator.
